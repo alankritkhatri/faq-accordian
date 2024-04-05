@@ -31,6 +31,11 @@
 .faq-heading {
   display: flex;
   align-self: center;
+  justify-content: center;
+}
+.faq-heading img {
+  width: 20px;
+  margin-right: 7px;
 }
 .faq-qna-section {
   display: flex;
@@ -42,6 +47,7 @@
   grid-template-areas:
     "a b"
     "c c";
+  margin: 10px 0px;
 }
 .faq h1 {
   grid-area: a;
