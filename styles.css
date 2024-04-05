@@ -64,4 +64,17 @@
   .backdrop {
     background-image: url("assets/images/background-pattern-desktop.svg");
   }
+  .faq-section {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .faq-section {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .faq-section {
+    max-width: 45%;
+  }
 }
