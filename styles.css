@@ -51,11 +51,14 @@
 .faq img {
   grid-area: b;
 }
-.faq p {
+.answer {
   grid-area: c;
   font-weight: 400;
   padding-top: 10px;
   display: none;
+}
+.block {
+  display: block;
 }
 @media screen and (min-width: 374px) {
   .backdrop {
