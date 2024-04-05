@@ -4,8 +4,16 @@
 //! Event Listeners
 //? Adding the open faq feature
 console.log(faqOpen);
-faqOpen.forEach((icon, j) => {
+faqOpen.forEach((icon, iconNo) => {
   return icon.addEventListener("click", function () {
-    answer[j].classList.toggle("block");
+    answer[iconNo].classList.toggle("block");
+    const plusSrc = "../assets/images/icon-plus.svg";
+    const minusSrc = "../assets/images/icon-minus.svg";
+
+    if (icon.getAttribute("src") === plusSrc) {
+      icon.setAttribute("src", minusSrc);
+    } else {
+      icon.setAttribute("src", plusSrc);
+    }
   });
 });
